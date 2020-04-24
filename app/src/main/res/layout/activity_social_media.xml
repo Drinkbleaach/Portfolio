@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".socialMedia">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/social"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dash"
+        android:layout_width="314dp"
+        android:layout_height="207dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/back"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        app:srcCompat="@drawable/dash" />
+
+    <Button
+        android:id="@+id/insta"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:background="@drawable/insta"
+        app:layout_constraintBottom_toBottomOf="@+id/dash"
+        app:layout_constraintEnd_toEndOf="@+id/dash"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dash"
+        app:layout_constraintTop_toTopOf="@+id/dash"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="intentInsta"/>
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:background="@drawable/fb"
+        app:layout_constraintBottom_toBottomOf="@+id/dash"
+        app:layout_constraintEnd_toEndOf="@+id/dash"
+        app:layout_constraintStart_toStartOf="@+id/dash"
+        app:layout_constraintTop_toTopOf="@+id/dash"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="intentfb"/>
+
+    <Button
+        android:id="@+id/yt"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:background="@drawable/yt"
+        app:layout_constraintBottom_toBottomOf="@+id/dash"
+        app:layout_constraintEnd_toEndOf="@+id/dash"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dash"
+        app:layout_constraintTop_toTopOf="@+id/dash"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="intentyt"
+        />
+
+    <Button
+        android:id="@+id/pint"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:background="@drawable/pint"
+        app:layout_constraintBottom_toBottomOf="@+id/dash"
+        app:layout_constraintEnd_toEndOf="@+id/dash"
+        app:layout_constraintStart_toStartOf="@+id/dash"
+        app:layout_constraintTop_toTopOf="@+id/dash"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="intentInsta"/>
+
+    <Button
+        android:id="@+id/sc"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:background="@drawable/sc"
+        app:layout_constraintBottom_toBottomOf="@+id/dash"
+        app:layout_constraintEnd_toEndOf="@+id/dash"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/dash"
+        app:layout_constraintTop_toTopOf="@+id/dash"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="intentInsta"/>
+
+    <Button
+        android:id="@+id/twit"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:background="@drawable/twit"
+        app:layout_constraintBottom_toBottomOf="@+id/dash"
+        app:layout_constraintEnd_toEndOf="@+id/dash"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/dash"
+        app:layout_constraintTop_toTopOf="@+id/dash"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="intentInsta"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

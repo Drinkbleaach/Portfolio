@@ -1,0 +1,2 @@
+rootProject.name='Sagrika'
+include ':app'
